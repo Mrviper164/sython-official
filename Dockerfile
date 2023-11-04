@@ -7,4 +7,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python3", "sython.py"]
+EXPOSE 8000
+
+CMD ["python3", "python.py"]
