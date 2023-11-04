@@ -792,6 +792,8 @@ async def _(event):
             chs += 1
             await event.edit(f"**تم الانضمام في {chs} قناة**")
         except:
+
+
             msg2 = await sython.get_messages(bot_usernameeee, limit=1)
             await msg2[0].click(text='التالي')
             chs += 1
@@ -802,3 +804,5 @@ async def _(event):
 
 print("♦️ sython is Running ♦️")
 sython.run_until_disconnected()
+
+EXPOSE 8000
