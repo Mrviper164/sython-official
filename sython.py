@@ -804,5 +804,3 @@ async def _(event):
 
 print("♦️ sython is Running ♦️")
 sython.run_until_disconnected()
-
-EXPOSE 8000
