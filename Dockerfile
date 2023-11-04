@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD python python.py
+CMD ["python", "app.py"]
